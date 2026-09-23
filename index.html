@@ -20,6 +20,11 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;400&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -27,62 +32,70 @@
   <!-- Add your site or application content here -->
   <script src="js/app.js"></script>
 
-  <header>
-    <img src="" alt="logo">
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">How we work</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
 
-  <section class="hero">
-    <article>
-      <h1>Smart Business with Smart People</h1>
-      <p>Grow your business to the next level to improve your business performance to stay competitive</p>
-      <a class="button" href="">Let's Discuss</a>
-    </article>
-  </section>
-  <section class="stats">
-    <div>
-      <span>10+</span>
-      <span>Years Experience</span>
-    </div>
-    <div>
-      <span>891</span>
-      <span>Cases Solved</span>
-    </div>
-    <div>
-      <span>263</span>
-      <span>Business Partners</span>
-    </div>
-  </section>
+    <header>
+      <figure>
+        <img class= "logo" src="img/Archesky.svg" alt="logo">
+        <figcaption>Logotipo de Archesky</figcaption>
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">How we work</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <section class="services">
-    <article>
-      <img src="" alt="">
-      <h3>Business Planning</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article>
-      <img src="" alt="">
-      <h3>Financial Planning</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article>
-      <img src="" alt="">
-      <h3>Digital Marketing</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article>
-      <img src="" alt="">
-      <h3>Market Analysis</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-  </section>
+    <section class="hero">
+      <article>
+        <h1><span class="smart">Smart</span> Business with <span class="smart">Smart</span> People</h1>
+        <p>Grow your business to the next level to improve your business performance to stay competitive</p>
+        <a href="" class="button">Let's Discuss</a>
+      </article>
+      <img class= "imagen_principal" src="img/hero.jpg" height=750px  alt="imagen_principal">
+    </section>
+    <section class="stats">
+      <div class="stat">
+          <span>10+</span>
+        <span>Years Experience</span>
+      </div>
+      <div class="stat">
+        <span>891</span>
+        <span>Cases Solved</span>
+      </div>
+      <div class="stat">
+        <span>263</span>
+        <span>Business Partners</span>
+      </div>
+    </section>
+
+    <section class="services">
+      <article>
+        <img src="img/Checklist.svg" height=60px alt="">
+        <h3>Business Planning</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+      <article>
+        <img src="img/Money Bag.svg" height=60px alt="">
+        <h3>Financial Planning</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+      <article>
+        <img src="img/Announcement.svg" height=60px alt="">
+        <h3>Digital Marketing</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+      <article>
+        <img src="img/Business Presentation.svg" height=60px alt="">
+        <h3>Market Analysis</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+    </section>
+
+  </div>
 
 </body>
 
